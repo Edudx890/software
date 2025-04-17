@@ -1,28 +1,15 @@
 # software
-Códigos relacionados ao sistema computacional (Python, CVZone, controle)
+ Python code for computer vision, Arduino communication, and logic control
 
-## Structure
+## Software Repository Structure
 
-`robotic-arm-software/` 
-
-`├── visao/`                    `# CVZone, OpenCV (rastreio, reconhecimento)` 
-
-`│   └── main_cv.py`   
-
-`├── controle/`                 `# Comunicação com Arduino, lógica de movimento`
-
-`│   └── serial_controller.py`
-
-`├── interface/`                `# GUI (futuramente) ou CLI`
-
-`│   └── terminal_ui.py`
-
-`├── tests/`                    `# Testes automatizados ou manuais de software`
-
-`├── utils/`                    `# Funções auxiliares`
-
-`├── requirements.txt`          `# Bibliotecas Python necessárias`
-
-`├── README.md`
-
-`└── .gitignore`
+```
+├── cv/                    # CVZone, OpenCV (object tracking, recognition)
+├── control/               # Communication with Arduino, motion logic
+├── interface/             # CLI or future GUI
+├── tests/                 # Unit or integration tests
+├── utils/                 # Auxiliary functions
+├── requirements.txt       # Python dependencies
+├── README.md
+└── .gitignore
+```
